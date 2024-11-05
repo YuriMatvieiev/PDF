@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <page size="A4">
+      <div class="wrapper">
+        <header class="header">
+          <div class="header__left">
+            <h1 class="header__title">Frailty Assessment Report</h1>
+            <div class="header__subtitle">powered by Eforto Metrics</div>
+          </div>
+          <div class="header__right">
+            <div class="header__info">
+              <div class="header__info-title">Casusnummer</div>
+              <div class="header__info-text">BE0001-0001</div>
+            </div>
+            <div class="header__info-row">
+              <div class="header__info">
+                <div class="header__info-title">Geslacht</div>
+                <div class="header__info-text">Man</div>
+              </div>
+              <div class="header__info">
+                <div class="header__info-title">Geboortedatum</div>
+                <div class="header__info-text">1953</div>
+              </div>
+            </div>
+
+            <div class="header__info">
+              <div class="header__info-title">Datum van test</div>
+              <div class="header__info-text">10.03.2024 - 11.03.2024</div>
+            </div>
+          </div>
+        </header>
+        <section class="content">
+          <h2 class="content__title">Samenvatting</h2>
+          <div class="content__desc">
+            Dit rapport zijn de resultaten van de gestandardiseerde Frailty
+            Assessment tests uitgevoerd door de kinesitherapeut als
+            verslaggeving aan de behandelende arts.
+          </div>
+          <div class="content__summary-items">
+            <div class="content__row">
+              <div class="content__summary-item">
+                <div class="content__summary-indicator red"></div>
+                <div class="content__summary-text">
+                  <b>Fysieke frailty fenotype status</b>
+                </div>
+              </div>
+              <div class="content__summary-item">
+                <div class="content__summary-indicator yellow"></div>
+                <div class="content__summary-text">
+                  <b>Vitale capaciteit: energie & metabolisme</b>
+                </div>
+              </div>
+            </div>
+            <div class="content__row">
+              <div class="content__summary-item">
+                <div class="content__summary-indicator green"></div>
+                <div class="content__summary-text">
+                  <b>Locomotorische capaciteit</b>
+                </div>
+              </div>
+              <div class="content__summary-item">
+                <div class="content__summary-indicator red"></div>
+                <div class="content__summary-text">
+                  <b>Vitale capaciteit: neuro-musculair</b>
+                </div>
+              </div>
+            </div>
+            <div class="content__row">
+              <div class="content__summary-item">
+                <div class="content__summary-indicator yellow"></div>
+                <div class="content__summary-text">
+                  Bijkomende <b>risicofactoren</b> zoals incontinentie, mondzorg
+                  en psychosociaal welbevinden
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__section">
+            <h2 class="content__subtitle">
+              1. Fysieke frailty fenotype status
+            </h2>
+            <div class="content__remark">
+              risico ten opzichte van robuuste personen
+            </div>
+            <div class="content__row">
+              <div class="content__thermometer-wrap">
+                <img
+                  src="./img/thermometer.png"
+                  alt=""
+                  class="content__thermometer-img"
+                />
+                <div class="content__thermometer-text">KWETSBAAR</div>
+              </div>
+              <div class="content__risk-wrap">
+                <div class="content__risk-item">
+                  tot <b>2x</b> meer risico op verlies ADL
+                </div>
+                <div class="content__risk-item">
+                  tot <b>1.8x</b> meer risico op hospitalisatie
+                </div>
+                <div class="content__risk-item">
+                  tot <b>2.6x</b> meer risico op fysieke beperkingen
+                </div>
+                <div class="content__risk-item">
+                  tot <b>2.3x</b> meer risico op overlijden
+                </div>
+                <div class="content__risk-item">
+                  tot 2.8x meer risico op vallen en fracturen
+                </div>
+              </div>
+            </div>
+            <div class="content__desc">
+              De <b>fysieke frailty fenotype status</b> werd bepaald aan de hand
+              van 5 criteria:
+            </div>
+            <div class="content__row">
+              <div class="content__status-items">
+                <div class="content__summary-item">
+                  <div class="content__summary-indicator red">JA</div>
+                  <div class="content__summary-text">
+                    Uitputting<sup>1</sup>
+                  </div>
+                </div>
+                <div class="content__summary-item">
+                  <div class="content__summary-indicator green">NEE</div>
+                  <div class="content__summary-text">
+                    Lage handknijpkracht<sup>2</sup>
+                  </div>
+                </div>
+                <div class="content__summary-item">
+                  <div class="content__summary-indicator red">JA</div>
+                  <div class="content__summary-text">
+                    Trage gangsnelheid<sup>2</sup>
+                  </div>
+                </div>
+                <div class="content__summary-item">
+                  <div class="content__summary-indicator red">JA</div>
+                  <div class="content__summary-text">
+                    Laag fysiek activiteitsniveau<sup>3</sup>
+                  </div>
+                </div>
+                <div class="content__summary-item">
+                  <div class="content__summary-indicator red">JA</div>
+                  <div class="content__summary-text">
+                    Niet-intentioneel gewichtsverlies<sup>4</sup>
+                  </div>
+                </div>
+              </div>
+              <div class="content__status-table">
+                <div class="content__status-table-row">
+                  <div class="content__status-table-title">robuust</div>
+                  <div class="content__status-table-circles">
+                    <div class="content__status-table-circle green"></div>
+                    <div class="content__status-table-circle green"></div>
+                    <div class="content__status-table-circle green"></div>
+                    <div class="content__status-table-circle yellow"></div>
+                    <div class="content__status-table-circle yellow"></div>
+                  </div>
+                </div>
+                <div class="content__status-table-row">
+                  <div class="content__status-table-title">pre-kwetsbaar</div>
+                  <div class="content__status-table-circles">
+                    ≥
+                    <div class="content__status-table-circle red"></div>
+                    <div class="content__status-table-circle green"></div>
+                    <div class="content__status-table-circle green"></div>
+                    <div class="content__status-table-circle green"></div>
+                    <div class="content__status-table-circle green"></div>
+                  </div>
+                </div>
+                <div class="content__status-table-row">
+                  <div class="content__status-table-title">kwetsbaar</div>
+                  <div class="content__status-table-circles">
+                    ≥
+                    <div class="content__status-table-circle red"></div>
+                    <div class="content__status-table-circle red"></div>
+                    <div class="content__status-table-circle red"></div>
+                    <div class="content__status-table-circle green"></div>
+                    <div class="content__status-table-circle green"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="footer__text">
+            v1.0 - report generated on 03.04.2024 11:23 by Kim Johnson
+          </div>
+          <div class="footer__page">1/5</div>
+        </footer>
+      </div>
+    </page>
+    <page size="A4">
+      <div class="wrapper">
+        <section class="content">
+          <h2 class="content__subtitle">2. Intrinsieke capaciteit</h2>
+          <div class="content__desc">
+            Intrinsieke capaciteit wordt bepaald op basis van biomarkers voor
+            vitale en locomotorische capaciteit.
+            <b>Elke biomerker is relevant</b>
+            en wordt geïnterpreteerd aan de hand van een “traffic light systeem”
+            dat het klinisch handelen aanstuurt.
+          </div>
+          <div class="content__chart-wrap">
+            <div class="content__chart-border">
+              <h3 class="content__chart-title">
+                Biomerkers vitale capaciteit: energie & metabolisme
+              </h3>
+              <div class="content__chart-items">
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/spieruithouding.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Spieruithouding<sup>5</sup>: <b>28 kPa*s/kg</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div
+                        class="content__chart-bar red"
+                        style="width: 33.333%"
+                      >
+                        <label>10</label>
+                      </div>
+                      <div
+                        class="content__chart-bar yellow"
+                        style="width: 33.333%"
+                      >
+                        <label>20</label>
+                      </div>
+                      <div
+                        class="content__chart-bar green"
+                        style="width: 33.333%"
+                      >
+                        <label>30</label>
+                      </div>
+                      <span
+                        class="content__chart-marker"
+                        style="left: 50%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/vermoeidheid.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Fysieke vermoeidheid (MVI fysiek, score /20)<sup>6</sup>:
+                      <b>9</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div class="content__chart-bar red" style="width: 25%">
+                        <label>2</label>
+                      </div>
+                      <div class="content__chart-bar yellow" style="width: 30%">
+                        <label>4</label>
+                      </div>
+                      <div class="content__chart-bar green" style="width: 20%">
+                        <label>5</label>
+                      </div>
+                      <div class="content__chart-bar red" style="width: 25%">
+                        <label>7</label>
+                      </div>
+                      <span
+                        class="content__chart-marker"
+                        style="left: 100%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/uitputtingstekenen.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Fysieke uitputtingstekenen (CPV-ratio)<sup>5</sup>:
+                      <b>4</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div class="content__chart-bar red" style="width: 25%">
+                        <label>2.2</label>
+                      </div>
+                      <div class="content__chart-bar yellow" style="width: 25%">
+                        <label>4.4</label>
+                      </div>
+                      <div class="content__chart-bar green" style="width: 25%">
+                        <label>6.6</label>
+                      </div>
+                      <div class="content__chart-bar red" style="width: 25%">
+                        <label>8.8</label>
+                      </div>
+                      <span
+                        class="content__chart-marker"
+                        style="left: 20%"
+                      ></span>
+                    </div>
+                    <div class="content__chart-desc">
+                      Capacity to perceived vitality ratio = gripwork / kg / MFI
+                      20 (physical)
+                    </div>
+                  </div>
+                </div>
+                <div class="content__gray-info">
+                  <div class="content__gray-img">
+                    <img src="./img/bookmark.svg" alt="Image" />
+                  </div>
+
+                  <div class="content__gray-text">
+                    Sarcopenia guideline EWGSOP2,
+                    <a
+                      href="https://geriatrie.be/nl/de-bvgg/activiteiten/werken-en-bijdragen/sarcopenia-guidelines"
+                      >https://geriatrie.be/nl/de-bvgg/activiteiten/werken-en-bijdragen/sarcopenia-guidelines</a
+                    >
+                    Falls prevention guideline (World guidelines for falls
+                    prevention,
+                    <a href="https://ebpnet.be/nl/ebsources/1240"
+                      >https://ebpnet.be/nl/ebsources/1240</a
+                    >)
+                  </div>
+                </div>
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/middelomtrek.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Middelomtrek (malnutritie):
+                      <b>104.7 cm</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div class="content__chart-bar red" style="width: 10%">
+                        <label>79</label>
+                      </div>
+                      <div class="content__chart-bar yellow" style="width: 15%">
+                        <label>94</label>
+                      </div>
+                      <div class="content__chart-bar green" style="width: 5%">
+                        <label>106</label>
+                      </div>
+                      <div class="content__chart-bar red" style="width: 70%">
+                        <label>120</label>
+                      </div>
+                      <span
+                        class="content__chart-marker"
+                        style="left: 42%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/kuitomtrek.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Kuitomtrek (spieratrofie):
+                      <b>33 cm</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div
+                        class="content__chart-bar red"
+                        style="width: 33.333%"
+                      >
+                        <label>32</label>
+                      </div>
+                      <div
+                        class="content__chart-bar yellow"
+                        style="width: 33.333%"
+                      >
+                        <label>34</label>
+                      </div>
+                      <div
+                        class="content__chart-bar green"
+                        style="width: 33.333%"
+                      >
+                        <label>36</label>
+                      </div>
+
+                      <span
+                        class="content__chart-marker"
+                        style="left: 50%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__gray-info">
+                  <div class="content__gray-img">
+                    <img src="./img/bookmark.svg" alt="Image" />
+                  </div>
+
+                  <div class="content__gray-text">
+                    Undernutrition in older persons <br />
+                    ESPEN, Global Leadership Initiative on Malnutrition,
+                    <a href="https://ebpnet.be/nl/ebsources/6716"
+                      >https://ebpnet.be/nl/ebsources/6716</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="content__colors-info">
+            <li>
+              <div class="red"></div>
+              Afwijkend, overweeg behandeling
+            </li>
+            <li>
+              <div class="yellow"></div>
+              Risco, overweeg preventieve actie om verergering te voorkomen
+            </li>
+            <li>
+              <div class="green"></div>
+              Binnen de norm, geef advies voor (behoud van) gezond gedrag
+            </li>
+          </ul>
+        </section>
+      </div>
+    </page>
+    <page size="A4">
+      <div class="wrapper">
+        <section class="content">
+          <div class="content__chart-wrap">
+            <div class="content__chart-border">
+              <h3 class="content__chart-title">
+                Biomerkers vitale capaciteit: Biomerkers neuromusculaire functie
+              </h3>
+              <div class="content__chart-items">
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/handknijpkracht.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Handknijpkracht<sup>8</sup>:
+                      <b>65 kPa</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div class="content__chart-bar red" style="width: 10%">
+                        <label>79</label>
+                      </div>
+                      <div class="content__chart-bar yellow" style="width: 15%">
+                        <label>94</label>
+                      </div>
+                      <div class="content__chart-bar green" style="width: 5%">
+                        <label>106</label>
+                      </div>
+                      <div class="content__chart-bar red" style="width: 70%">
+                        <label>120</label>
+                      </div>
+                      <span
+                        class="content__chart-marker"
+                        style="left: 42%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/spierkracht.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Spierkracht knie-extensoren<sup>9</sup>:
+                      <b>12 chair rises</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div
+                        class="content__chart-bar red"
+                        style="width: 33.333%"
+                      >
+                        <label>32</label>
+                      </div>
+                      <div
+                        class="content__chart-bar yellow"
+                        style="width: 33.333%"
+                      >
+                        <label>34</label>
+                      </div>
+                      <div
+                        class="content__chart-bar green"
+                        style="width: 33.333%"
+                      >
+                        <label>36</label>
+                      </div>
+
+                      <span
+                        class="content__chart-marker"
+                        style="left: 50%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__gray-info">
+                  <div class="content__gray-img">
+                    <img src="./img/bookmark.svg" alt="Image" />
+                  </div>
+
+                  <div class="content__gray-text">
+                    Sarcopenia guideline EWGSOP2
+                    <a
+                      href="https://geriatrie.be/nl/de-bvgg/activiteiten/werken-en-bijdragen/sarcopenia-guidelines"
+                      >https://geriatrie.be/nl/de-bvgg/activiteiten/werken-en-bijdragen/sarcopenia-guidelines</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content__chart-border">
+              <h3 class="content__chart-title">
+                Biomerkers voor locomotorische capaciteit
+              </h3>
+              <div class="content__chart-items">
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/evenwicht.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Evenwicht (score /4)<sup>10</sup>:
+                      <b>2</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div class="content__chart-bar red" style="width: 10%">
+                        <label>79</label>
+                      </div>
+                      <div class="content__chart-bar yellow" style="width: 15%">
+                        <label>94</label>
+                      </div>
+                      <div class="content__chart-bar green" style="width: 5%">
+                        <label>106</label>
+                      </div>
+                      <div class="content__chart-bar red" style="width: 70%">
+                        <label>120</label>
+                      </div>
+                      <span
+                        class="content__chart-marker"
+                        style="left: 42%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__chart-item">
+                  <div class="content__chart-icon">
+                    <img src="./img/gangsnelheid.png" alt="Image" />
+                  </div>
+                  <div class="content__chart-info">
+                    <div class="content__chart-name">
+                      Gangsnelheid<sup>11</sup>:
+                      <b>0.9 m/s</b>
+                    </div>
+                    <div class="content__chart-bars">
+                      <div
+                        class="content__chart-bar red"
+                        style="width: 33.333%"
+                      >
+                        <label>32</label>
+                      </div>
+                      <div
+                        class="content__chart-bar yellow"
+                        style="width: 33.333%"
+                      >
+                        <label>34</label>
+                      </div>
+                      <div
+                        class="content__chart-bar green"
+                        style="width: 33.333%"
+                      >
+                        <label>36</label>
+                      </div>
+
+                      <span
+                        class="content__chart-marker"
+                        style="left: 50%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content__gray-info">
+                  <div class="content__gray-img">
+                    <img src="./img/bookmark.svg" alt="Image" />
+                  </div>
+
+                  <div class="content__gray-text">
+                    WHO guideline physical activity for older persons
+                    <a href="https://www.who.int/publications/i/item/97"
+                      >https://www.who.int/publications/i/item/97</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="content__colors-info">
+            <li>
+              <div class="red"></div>
+              Afwijkend, overweeg behandeling
+            </li>
+            <li>
+              <div class="yellow"></div>
+              Risco, overweeg preventieve actie om verergering te voorkomen
+            </li>
+            <li>
+              <div class="green"></div>
+              Binnen de norm, geef advies voor (behoud van) gezond gedrag
+            </li>
+          </ul>
+        </section>
+      </div>
+    </page>
+    <page size="A4">
+      <div class="wrapper">
+        <section class="content">
+          <h2 class="content__subtitle">4. Relevante risicofactoren</h2>
+          <div class="content__small-title">Psychosociaal welbevinden</div>
+          <div class="content__status-items">
+            <div class="content__summary-item">
+              <div class="content__summary-indicator red">JA</div>
+              <div class="content__summary-text">
+                Ervaart u wel eens een leegte om u heen?
+              </div>
+            </div>
+            <div class="content__summary-item">
+              <div class="content__summary-indicator green">NEE</div>
+              <div class="content__summary-text">
+                Mist u wel eens mensen om u heen?
+              </div>
+            </div>
+            <div class="content__summary-item">
+              <div class="content__summary-indicator green">NEE</div>
+              <div class="content__summary-text">
+                Voelt u zich wel eens in de steek gelaten?
+              </div>
+            </div>
+            <div class="content__summary-item">
+              <div class="content__summary-indicator green">NEE</div>
+              <div class="content__summary-text">
+                Heeft u zich de laatste tijd somber of neerslachtig gevoeld?
+              </div>
+            </div>
+            <div class="content__summary-item">
+              <div class="content__summary-indicator green">NEE</div>
+              <div class="content__summary-text">
+                Heeft u zich de laatste tijd nerveus of angstig gevoeld?
+              </div>
+            </div>
+          </div>
+          <div class="content__small-title">Incontinentie</div>
+          <div class="content__status-items">
+            <div class="content__summary-item">
+              <div class="content__summary-indicator green">NEE</div>
+              <div class="content__summary-text">
+                Heeft u gedurende het afgelopen jaar ongewild urine of stoelgang
+                verloren?
+              </div>
+            </div>
+          </div>
+          <div class="content__small-title">Mondzorg</div>
+          <div class="content__status-items">
+            <div class="content__summary-item">
+              <div class="content__summary-indicator red">NEE</div>
+              <div class="content__summary-text">
+                Heeft u gedurende de afgelopen twee jaar uw tandarts bezocht?
+              </div>
+            </div>
+          </div>
+          <div class="content__small-title">Cognitie</div>
+          <div class="content__status-items">
+            <div class="content__summary-item">
+              <div class="content__summary-text">
+                Bijkomende cognitieve onderzoek: <b>niet uitgevoerd</b>
+              </div>
+            </div>
+          </div>
+          <h2 class="content__subtitle">5. Opmerkingen</h2>
+          <div class="content__notes">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            iste ut dolorum nam placeat atque reprehenderit et perspiciatis
+            recusandae? Vitae, inventore ab quod at quas, eum explicabo quos cum
+            eligendi praesentium mollitia obcaecati non omnis minus. Rem
+            aperiam, nulla iste quo at eum quam aliquid commodi odit? Tempore
+            enim consequuntur necessitatibus, dolore, odit cupiditate fugiat
+            temporibus error iure ipsum itaque atque non sed repellendus nihil
+            obcaecati voluptates similique unde aliquam! Nemo ipsum repellat
+            atque voluptatum unde voluptatem odio consequatur adipisci.
+          </div>
+        </section>
+      </div>
+    </page>
+    <page size="A4">
+      <div class="wrapper">
+        <section class="content">
+          <h2 class="content__subtitle">Referenties</h2>
+          <ul class="content__referenties">
+            <li>
+              Predicts physical frailty up to 9 years prior to its onset
+              Stenholm S, Ferrucci L, Vahtera J, Hoogendijk EO, Huisman M,
+              Pentti J, Lindbohm JV, Bandinelli S, Guralnik JM, Kivimaki M
+              (2019) Natural Course of Frailty Components in People Who Develop
+              Frailty Syndrome: Evidence From Two Cohort Studies. J Gerontol A
+              Biol Sci Med Sci 74:667-674.
+              <a href="https://doi.org/10.1093/gerona/gly132"
+                >https://doi.org/10.1093/gerona/gly132</a
+              >
+            </li>
+            <li>
+              Sarcopenia guideline
+              <a
+                href="https://geriatrie.be/media/2018/10/sarcopenia-03-muscle-strength.pdf"
+                >https://geriatrie.be/media/2018/10/sarcopenia-03-muscle-strength.pdf</a
+              >;
+              <a href="https://ebpnet.be/nl/ebsources/1342"
+                >https://ebpnet.be/nl/ebsources/1342</a
+              >,
+              <a href="https://ebpnet.be/fr/ebsources/1342"
+                >https://ebpnet.be/fr/ebsources/1342</a
+              >,
+              <a
+                href="https://geriatrie.be/nl/de-bvgg/activiteiten/werken-en-bijdragen/sarcopenia-guidelines/"
+                >https://geriatrie.be/nl/de-bvgg/activiteiten/werken-en-bijdragen/sarcopenia-guidelines/</a
+              >
+            </li>
+            <li>
+              WHO guideline physical activity for older persons
+              <a href="https://www.who.int/publications/i/item/9789240015128"
+                >https://www.who.int/publications/i/item/9789240015128</a
+              >
+            </li>
+            <li>Original physical frailty phenotype</li>
+            <li>
+              Bautmans I, Knoop V, Beyer I, Bruunsgaard H, Molbo D, Mortensen
+              EL, Lund R (2024) The relationship between self-perceived fatigue,
+              muscle endurance, and circulating markers of inflammation in
+              participants of the Copenhagen aging and Midlife Biobank (CAMB).
+              European Review of Aging and Physical Activity 21:2.
+              <a href="https://doi.org/10.1186/s11556-024-00336-9"
+                >https://doi.org/10.1186/s11556-024-00336-9</a
+              >; Knoop V, Costenoble A, Debain A, Bravenboer B, Jansen B,
+              Scafoglieri A, Bautmans I, Gerontopole Brussels Study G (2023)
+              Muscle Endurance and SelfPerceived Fatigue Predict Decline in Gait
+              Speed and Activities of Daily Living After 1-Year Follow-Up:
+              Results From the BUTTERFLY Study. J Gerontol A Biol Sci Med Sci
+              78:1402-1409.
+              <a href="https://doi.org/10.1093/gerona/glac224"
+                >https://doi.org/10.1093/gerona/glac224</a
+              >; De Dobbeleer L, Swart MM, Geerds MAJ, Baggen RJ, Jansen AS,
+              Tielemans R, Silva H, Lieten S, Barbe K, Peeters G,
+              Vollenbroek-Hutten MMR, Melis RJF, Bautmans I (2023) Validity and
+              reliability of Eforto(R), a system to (self-)monitor grip strength
+              and muscle fatigability in older persons. Aging Clin Exp Res
+              35:835-845.
+              <a href="https://doi.org/10.1007/s40520-023-02365-3"
+                >https://doi.org/10.1007/s40520-023-02365-3</a
+              >; De Dobbeleer L, Beckwee D, Arnold P, Baudry S, Beyer I,
+              Demarteau J, Lieten S, Punie Y, Bautmans I (2023) Comparison
+              between Two Different Handgrip Systems and Protocols on Force
+              Reduction in Handgrip Assessment. Gerontology 69:1259-1268.
+              <a href="https://doi.org/10.1159/000530227"
+                >https://doi.org/10.1159/000530227</a
+              >; Knoop V, Costenoble A, Debain A, Vella Azzopardi R, Vermeiren
+              S, van Laere S, Jansen B, Scafoglieri A, Bautmans I, Gerontopole
+              Brussels Study g (2021) The interrelationship between grip work,
+              self-perceived fatigue and pre-frailty in community-dwelling
+              octogenarians. Exp Gerontol 152:111440.
+              <a href="https://doi.org/10.1016/j.exger.2021.111440"
+                >https://doi.org/10.1016/j.exger.2021.111440</a
+              >;
+            </li>
+            <li>
+              De Dobbeleer L, Beckwee D, Arnold P, Baudry S, Beyer I, Demarteau
+              J, Lieten S, Punie Y, Bautmans I (2023) Comparison between Two
+              Different Handgrip Systems and Protocols on Force Reduction in
+              Handgrip Assessment. Gerontology 69:1259-1268. https://
+              doi.org/10.1159/000530227 and corrobated with Westenberger A,
+              Nohre M, Brahler E, Morfeld M, de Zwaan M (2022) Psychometric
+              properties, factor structure, and German population norms of the
+              multidimensional fatigue inventory (MFI-20). Front Psychiatry
+              13:1062426.
+              <a href="https://doi.org/10.3389/fpsyt.2022.1062426"
+                >https://doi.org/10.3389/fpsyt.2022.1062426</a
+              >;
+            </li>
+            <li>
+              De Dobbeleer L, Swart MM, Geerds MAJ, Baggen RJ, Jansen AS,
+              Tielemans R, Silva H, Lieten S, Barbe K, Peeters G,
+              VollenbroekHutten MMR, Melis RJF, Bautmans I (2023) Validity and
+              reliability of Eforto(R), a system to (self-)monitor grip strength
+              and muscle fatigability in older persons. Aging Clin Exp Res
+              35:835-845.
+              <a href="https://doi.org/10.1007/s40520-023-02365-3"
+                >https://doi.org/10.1007/s40520-023-02365-3</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </page>
+  </body>
+</html>
